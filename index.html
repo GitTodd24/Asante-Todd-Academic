@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv = “refresh” content=”30”> 
+    <meta name = “description” content = “Welcome to the homepage of the website for Dr. Asante Todd, public intellectual on religion, culture, and the common good. This site has the latest on Dr. Todd’s Bio, Curriculum Vitae (CV), and Publications. Click the links now to explore the site!” >  
+    <meta name = “keywords” content = “Asante Todd, Asante Todd biography, Asante Todd CV, the golden band, African American religion and culture studies, African American theology, African American religion, public intellectual, black pubic intellectual, African American public intellectual, African American cosmology, African American public theology, black theology, black philosophy, African American process theology, Christian ethics, African American music, African American music studies, black church studies, black aesthetics, religious aesthetics, aesthetics, African American religious aesthetics, African American Christianity, religion and hermeneutics, religion and politics”> 
+    <meta name = “author” content = “ATodd” >  
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AsanteTodd</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css"> <!-- fontawesome -->
+    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/tooplate-antique-cafe.css">
+    
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <script src="js/jquery.singlePageNav.min.js"></script>
+  <script>
+
+      function checkAndShowHideMenu() {
+          if(window.innerWidth < 768) {
+              $('#tm-nav ul').addClass('hidden');                
+          } else {
+              $('#tm-nav ul').removeClass('hidden');
+          }
+      }
+
+      $(function(){
+          var tmNav = $('#tm-nav');
+          tmNav.singlePageNav();
+
+          checkAndShowHideMenu();
+          window.addEventListener('resize', checkAndShowHideMenu);
+
+          $('#menu-toggle').click(function(){
+              $('#tm-nav ul').toggleClass('hidden');
+          });
+
+          $('#tm-nav ul li').click(function(){
+              if(window.innerWidth < 768) {
+                  $('#tm-nav ul').addClass('hidden');
+              }                
+          });
+
+          $(document).scroll(function() {
+              var distanceFromTop = $(document).scrollTop();
+
+              if(distanceFromTop > 100) {
+                  tmNav.addClass('scroll');
+              } else {
+                  tmNav.removeClass('scroll');
+              }
+          });
+          
+          document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+              anchor.addEventListener('click', function (e) {
+                  e.preventDefault();
+
+                  document.querySelector(this.getAttribute('href')).scrollIntoView({
+                      behavior: 'smooth'
+                  });
+              });
+          });
+      });
+  </script>
+  <script src="js/scrollEffect.js"></script> 
+  </body>
+  </html>
