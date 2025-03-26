@@ -14,6 +14,18 @@ import Hermeneutics from './pages/hermeneutics';
 import AfricanAmericanRelCul from './pages/africanamericanrelcul';
 import PublicTheology from './pages/publictheology';
 import SpeakingWorkshop from './pages/speakingworkshop';
+import Give from './pages/give';
+import CreditCard from './pages/creditCard';
+import Venmo from './pages/venmo';
+import PayPal from './pages/paypal';
+import Zelle from './pages/zelle';
+import ApplePay from './pages/applePay';
+import MobileText from './pages/mobiletext';
+import GooglePay from './pages/googlepay';
+import Stocks from './pages/stocks';
+import DonorAdvisedFunds from './pages/donorAdvisedFunds';
+import Crypto from './pages/crypto';
+import DirectTransfer from './pages/directTransfer';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -37,8 +49,8 @@ function App() {
       return < SpeakingWorkshop handlePageChange={handlePageChange}/>;
     }
     if (currentPage === 'Footer') {
-      return <Footer />;
-    } 
+      return <Footer handlePageChange={handlePageChange}/>;
+    }
     if (currentPage === 'Lectures') {
       return <Lectures handlePageChange={handlePageChange} />;
     }
@@ -56,10 +68,49 @@ function App() {
       if (lecturePage === 'PublicTheology') {
         return <PublicTheology handlePageChange={handlePageChange} />;
       }
+      }
       if (currentPage === 'Contact') {
         return <Contact />;
       }
-    }
+      if (currentPage === 'Give') {
+        return <Give handlePageChange={handlePageChange} />;
+      }
+      if (currentPage.startsWith('Give')) {
+        const givePage = currentPage.split('/')[1];
+        if (givePage === 'MobileText') {
+          return <MobileText handlePageChange={handlePageChange} />;
+        }
+        if (givePage === 'Stocks') {
+          return <Stocks handlePageChange={handlePageChange} />;
+        }
+        if (givePage === 'DonorAdvisedFunds') {
+          return <DonorAdvisedFunds handlePageChange={handlePageChange} />;
+        }
+        if (givePage === 'Crypto') {
+          return <Crypto handlePageChange={handlePageChange} />;
+        }
+        if (givePage === 'CreditCard') {
+          return <CreditCard handlePageChange={handlePageChange} />;
+        }
+        if (givePage === 'PayPal') {
+          return <PayPal handlePageChange={handlePageChange} />;
+        }
+        if (givePage === 'Venmo') {
+          return <Venmo handlePageChange={handlePageChange} />;
+        }
+        if (givePage === 'Zelle') {
+          return <Zelle handlePageChange={handlePageChange} />;
+        }
+        if (givePage === 'ApplePay') {
+          return <ApplePay handlePageChange={handlePageChange} />;
+        }
+        if (givePage === 'GooglePay') {
+          return <GooglePay handlePageChange={handlePageChange} />;
+        }
+        if (givePage === 'DirectTransfer') {
+          return <DirectTransfer handlePageChange={handlePageChange} />;
+        }
+        }
     return <Contact />;
   };
 

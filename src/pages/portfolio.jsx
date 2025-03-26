@@ -4,12 +4,26 @@ import Footer from "../components/Footer";
 function Portfolio({handlePageChange}) {
     return (
         <>
-            <h1 class="text-white">Portfolio</h1>
+            <img
+          src="img/antiqueBook.jpeg"
+          alt="Antique books against abstract, distressed background"
+          className="absolute"
+          style={{
+            top: '3',
+            left: '0',
+            width: '100%',
+            height: 'auto',
+            zIndex: '1'
+          }}
+        />
+            <h1 style={{ zIndex: '3', position: 'relative', color: 'white' }} class="text-white">Portfolio</h1>
             <div id="portfolio" className="parallax-window relative" data-parallax="scroll" data-image-src="img/chair-1840011_1280.jpg">
+
                 <div className="container mx-auto tm-container">
                     <div className="lg:items-stretch">
                         
-                        <div className="rounded-xl px-10 py-12 bg-white bg-opacity-80 tm-item-container-contact max-w-fit">
+                        <div className="rounded-xl px-10 py-12 bg-white bg-opacity-80 tm-item-container-contact max-w-fit" style={{ zIndex: '2', position: 'relative', marginTop: "125px" }}>
+                            
                         <h2 className="text-3xl mb-6 tm-text-green">Selected Works</h2>
                         <div className="flex items-start mt-20 mb-10 tm-menu-item-1">
                         <a href="https://www.amazon.com/Golden-Band-American-Spirituals-Hermeneutics/dp/0802885144/ref=sr_1_1?crid=3T6QCLUQLM7SH&dib=eyJ2IjoiMSJ9.j7NX4L5TI4I0eg-jbpad36K_nL8QepPxZ_7hQVGtgNcxu7knLWaCUfGF2zD6lp5QlCCCaWvI9fmq2p6lurfCIYjCV1pw1Lx_tC_K6Yp4MdfhQI-fbP9NZYZLgtUhUv1MnW3qqDjXqmdbmbK_6dQSO8ompNfjWG2oyAkmjWZQtfojYy5HMepVsFS4mk5S1arTfbHiLo9PafC9BTVEb7z7153R2G_YzgyBwrADoI6brlo.pqCuoCgf52jQq8AnavWcVZCR3m-OK4mL612I_6lY66g&dib_tag=se&keywords=the+golden+band&qid=1740491304&s=books&sprefix=the+golden+band%2Cstripbooks%2C110&sr=1-1" target="_blank" rel="noopener noreferrer" className="hover:underline italic">
@@ -29,7 +43,7 @@ function Portfolio({handlePageChange}) {
                         </div>                    
                     </div>
                            </div>
-                        <div className="flex-1 rounded-xl p-12 pb-14 m-5 bg-black bg-opacity-50 tm-item-container" style={{ marginLeft: "575px", marginTop: "-900px" }}>
+                        <div className="flex-1 rounded-xl p-12 pb-14 m-5 bg-black bg-opacity-50 tm-item-container" style={{ marginLeft: "575px", marginTop: "-900px", zIndex: '2', position: 'relative' }}>
                         <div className="input bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold">
                          <div className="ml-3 sm:ml-6 flex justify-left gap-4">
                             <h3 className="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow text-left"><a href="/Between Disenfranchisement and Disillusionment The 2016 African American Electorate.pdf">"Between Disenfranchisement and Disillusionment: The African American Electorate in the 2016 Presidential Election"</a>

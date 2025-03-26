@@ -11,7 +11,7 @@ function Contact(){
             
                 <div class="flex-1 rounded-xl px-10 py-12 m-5 bg-white bg-opacity-80 tm-item-container-contact">
                     
-                    <h2 class="text-3xl mb-6 tm-text-green">Contact Dr. Todd.<br/><br/>Invite.<br/>Discuss.<br/>Consult.<br/>Collaborate.<br/></h2>
+                    <h2 class="text-3xl mb-6 tm-text-green">Contact Dr. Todd.<br/><br/>Discuss.<br/>Consult.<br/>Collaborate.<br/>Invite.<br/></h2>
                     <p class="mb-6 text-lg leading-8">
                     Thanks for stopping by the site! I hope that you enjoyed your visit. You may contact Dr. Todd for further information or needed services by filling out the form to the right or by using the contact information below. 
                     </p>

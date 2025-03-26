@@ -1,6 +1,6 @@
 function NavBar({handlePageChange, currentPage}){
   return <>
-   <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="img/heroflag.jpeg">
+   <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="img/antique-cafe-bg-01.jpg">
         <nav id="tm-nav" class="fixed w-full">
             <div class="tm-container mx-auto px-2 md:py-6 text-right">
                 <button class="md:hidden py-2 px-2" id="menu-toggle"><i class="fas fa-2x fa-bars tm-text-gold"></i></button>

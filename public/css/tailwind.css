@@ -413,6 +413,12 @@ img {
   border-style: solid;
 }
 
+.custom-logo {
+  width: 100px; /* Explicit width */
+  height: auto; /* Explicit height */
+  
+}
+
 textarea {
   resize: vertical;
 }
@@ -833,6 +839,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+}
+
+.bg-gold {
+  --tw-bg-opacity: 1;
+  background-color: rgba(227, 193, 120, var(--tw-bg-opacity));
 }
 
 .bg-opacity-0 {
