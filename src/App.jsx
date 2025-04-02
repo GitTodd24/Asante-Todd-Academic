@@ -15,7 +15,6 @@ import AfricanAmericanRelCul from './pages/africanamericanrelcul';
 import PublicTheology from './pages/publictheology';
 import SpeakingWorkshop from './pages/speakingworkshop';
 import Give from './pages/give';
-import CreditCard from './pages/creditCard';
 import Venmo from './pages/venmo';
 import PayPal from './pages/paypal';
 import Zelle from './pages/zelle';
@@ -26,6 +25,7 @@ import Stocks from './pages/stocks';
 import DonorAdvisedFunds from './pages/donorAdvisedFunds';
 import Crypto from './pages/crypto';
 import DirectTransfer from './pages/directTransfer';
+import WordsofAffirmation from './pages/wordsofAffirmation';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -88,6 +88,9 @@ function App() {
         }
         if (givePage === 'Crypto') {
           return <Crypto handlePageChange={handlePageChange} />;
+        }
+        if (givePage === 'WordsofAffirmation') {
+          return <WordsofAffirmation handlePageChange={handlePageChange} />;
         }
         if (givePage === 'CreditCard') {
           return <CreditCard handlePageChange={handlePageChange} />;

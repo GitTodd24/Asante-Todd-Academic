@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../components/footer";
 
-function Give({ handlePageChange }) {
+function WordsofAffirmation({ handlePageChange }) {
     return (
      <>
          <img
@@ -16,22 +16,22 @@ function Give({ handlePageChange }) {
          zIndex: '1'
        }}
      />
-        <h1 style={{ zIndex: '3', position: 'relative', color: 'black' }}>Give</h1>
+        <h1 style={{ zIndex: '3', position: 'relative', color: 'black' }}>Words of Affirmation</h1>
        
-         <div id="give" className="parallax-window relative" data-parallax="scroll" data-image-src="img/Choir2Landscape2.jpg">
+         <div id="wordsofaffirmation" className="parallax-window relative" data-parallax="scroll" data-image-src="img/Choir2Landscape2.jpg">
           <div className="container mx-auto tm-container  py-24 sm:py-48">
          
               <div className="lg:items-stretch">
              
                <div className="rounded-xl px-10 py-12 bg-white bg-opacity-80 tm-item-container-contact max-w-fit" style={{ zIndex: '2', position: 'relative', marginTop: "-50px" }}>
-                <h2 className="text-3xl mb-6 tm-text-green">Give Now. <br/> Make an Impact.</h2>
+                <h2 className="text-3xl mb-6 tm-text-green" >Giving Words of Affirmation</h2>
                 <p className="mb-6 text-lg leading-8">
                     Offer a gift in support of Dr. Todd's research, cultural knowledge, writing, and public education as well as the values of faith, liberty of conscience, and religious tolerance.<br /><br /> 
                     With gratitude and sincerest thanks.  
                 </p>
                 <button
-               className="inline-block text-white text-2xl pl-10 pr-12 py-6 rounded-lg tm-bg-green" style={{ cursor: "default" }}>
-               <u>Credit/Debit Giving Form</u>
+               className="inline-block text-white text-2xl pl-10 pr-12 py-6 rounded-lg tm-bg-green" style={{ backgroundColor: "rgb(133, 26, 150)", cursor: "default" }}>
+               <u>Words of Affirmation Form</u>
                </button>
                 <br></br>
                 <br/>   
@@ -65,7 +65,7 @@ function Give({ handlePageChange }) {
                         <textarea rows="6" name="message" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Enter Message Here..." required=""></textarea>
 
                         <div class="text-right">
-                            <button type="submit" className="text-white hover:text-yellow-500 transition" style={{ backgroundColor: "rgb(154, 12, 15)" }}>Submit Credit/Debit Giving Form</button>
+                            <button type="submit" className="text-white hover:text-yellow-500 transition" style={{ backgroundColor: "rgb(154, 12, 15)" }}>Submit Words of Affirmation Form</button>
                         </div> 
                     
                 </form>    
@@ -179,4 +179,4 @@ function Give({ handlePageChange }) {
     );
 }
 
-export default Give;
+export default WordsofAffirmation;
