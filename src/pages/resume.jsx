@@ -35,9 +35,9 @@ function Resume({handlePageChange}){
                     <ul className="flex items-center">
 
             <li className="flex items-center">
+                   <img src="img/logos/fasken.webp" alt="Fasken Foundation Logo" style={{ marginRight: "35px" }} class="flex custom-logo rounded-lg" />
+                    
                     <img src="img/logos/vanderbiltlogo.png" alt="Vanderbilt Logo" style={{ marginRight: "35px" }} class="flex custom-logo display-inline" />
-    
-                    <img src="img/logos/fasken.webp" alt="Fasken Foundation Logo" style={{ marginRight: "35px" }} class="flex custom-logo rounded-lg" />
 
                     <img src="img/logos/FTE_promo.jpg" alt="Forum for Theological Exploration Logo" class="flex custom-logo rounded-lg" />
             </li>
@@ -80,6 +80,19 @@ function Resume({handlePageChange}){
                      <img src="img/logos/agudas.png" alt="Congregation Agudas Achim Logo" style={{ marginRight: "30px" }} class="flex custom-logo rounded-lg" />
  
                      <img src="img/logos/nrcat_logo.webp" alt="National Religious Campaign Against Torture Logo" class="flex custom-logo rounded-lg" />
+             </li>
+             </ul>
+                    </div>
+                    <div className="flex flex-wrap justify-around mt-20 mb-10">
+                     
+                     <ul className="flex items-center">
+ 
+             <li className="flex items-center">
+                     <img src="img/logos/AAUL.Logo_Mark.webp" alt="The National Urban League Logo" style={{ marginRight: "30px" }} class="flex custom-logo display-inline rounded-lg" />
+     
+                     <img src="img/logos/Seal_of_Texas_House_of_Representatives.svg.png" alt="Seal of Texas House of Representatives" style={{ marginRight: "30px" }} class="flex custom-logo rounded-lg" />
+ 
+                     <img src="img/logos/NMBCA_emblem_logo.png" alt="National Missionary Baptist Church Association Emblem" class="flex custom-logo rounded-lg" />
              </li>
              </ul>
                     </div>
