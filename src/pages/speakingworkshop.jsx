@@ -33,14 +33,15 @@ function SpeakingWorkshop({ handlePageChange }) {
                                 Continuing Education Seminars<br/><br/> 
                                 Online Seminars<br/><br/>
                                 Adult Spiritual Formation Seminars<br/><br/>
-                                Youth Spiritual Formation Seminars<br/>
+                                Youth Spiritual Formation Seminars<br/><br/>
+                                Life Coaching Consultations<br/>
                             </p>
                             <button onClick={() => handlePageChange('Contact')} className="inline-block tm-bg-green transition text-white text-xl pt-3 pb-4 px-8 rounded-md cursor-pointer">
               <i className="far fa-comments mr-4"></i>
               Contact
               </button>
                           </div>
-                        <div className="flex-1 rounded-xl p-12 pb-14 m-5 bg-black bg-opacity-50 tm-item-container" style={{ marginLeft: "575px", marginTop: "-950px", zIndex: '2', position: 'relative' }}>
+                        <div className="flex-1 rounded-xl p-12 pb-14 m-5 bg-black bg-opacity-50 tm-item-container" style={{ marginLeft: "575px", marginTop: "-1075px", zIndex: '2', position: 'relative' }}>
                             <form action="" method="POST" className="text-lg text-white">
                                 <u><h2 className="text-3xl mb-6 text-white">Speaking Engagements</h2></u>
                                 <div className="input bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold">

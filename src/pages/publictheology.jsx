@@ -70,6 +70,7 @@ function PublicTheology({ handlePageChange }) {
                                 Church, State, and Disestablishment in American Public Life <br></br><br></br>
                                 The Churching of America <br></br><br></br>
                                 On Religion, Nature, and Health <br></br><br></br>
+                                Reflections on Twentieth Century Public Theology in America <br></br><br></br>
                                 Postliberal Christianity and the turn to Virtue <br></br><br></br>
                                 What is Public Theology?<br></br><br></br>
                                 Christian Fundamentalism <br></br><br></br>

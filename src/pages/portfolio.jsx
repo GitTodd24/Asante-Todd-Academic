@@ -28,9 +28,31 @@ function Portfolio({handlePageChange}) {
                         <div className="flex items-start mt-20 mb-10 tm-menu-item-1">
                         <a href="https://www.amazon.com/Golden-Band-American-Spirituals-Hermeneutics/dp/0802885144/ref=sr_1_1?crid=3T6QCLUQLM7SH&dib=eyJ2IjoiMSJ9.j7NX4L5TI4I0eg-jbpad36K_nL8QepPxZ_7hQVGtgNcxu7knLWaCUfGF2zD6lp5QlCCCaWvI9fmq2p6lurfCIYjCV1pw1Lx_tC_K6Yp4MdfhQI-fbP9NZYZLgtUhUv1MnW3qqDjXqmdbmbK_6dQSO8ompNfjWG2oyAkmjWZQtfojYy5HMepVsFS4mk5S1arTfbHiLo9PafC9BTVEb7z7153R2G_YzgyBwrADoI6brlo.pqCuoCgf52jQq8AnavWcVZCR3m-OK4mL612I_6lY66g&dib_tag=se&keywords=the+golden+band&qid=1740491304&s=books&sprefix=the+golden+band%2Cstripbooks%2C110&sr=1-1" target="_blank" rel="noopener noreferrer" className="hover:underline italic">
                         <img src="img/81KUH4zYSsL._SY522_.jpg" alt="The Golden Band book cover" className="rounded-md w-10 h-auto style={{ marginLeft: '20px' }}"/></a> 
+                       
+                          
+                        <div className="text-right ml-3 sm:ml-6">
                         <div className="ml-3 sm:ml-6">
+                            <br/>
                             <h3 className="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow"> <a href="https://www.amazon.com/Golden-Band-American-Spirituals-Hermeneutics/dp/0802885144/ref=sr_1_1?crid=3T6QCLUQLM7SH&dib=eyJ2IjoiMSJ9.j7NX4L5TI4I0eg-jbpad36K_nL8QepPxZ_7hQVGtgNcxu7knLWaCUfGF2zD6lp5QlCCCaWvI9fmq2p6lurfCIYjCV1pw1Lx_tC_K6Yp4MdfhQI-fbP9NZYZLgtUhUv1MnW3qqDjXqmdbmbK_6dQSO8ompNfjWG2oyAkmjWZQtfojYy5HMepVsFS4mk5S1arTfbHiLo9PafC9BTVEb7z7153R2G_YzgyBwrADoI6brlo.pqCuoCgf52jQq8AnavWcVZCR3m-OK4mL612I_6lY66g&dib_tag=se&keywords=the+golden+band&qid=1740491304&s=books&sprefix=the+golden+band%2Cstripbooks%2C110&sr=1-1" target="_blank" rel="noopener noreferrer" className="hover:underline italic">The Golden Band</a></h3>
-                        </div>                  
+                            <br/>
+                        </div>   
+                        <div className="text-center ml-3 sm:ml-6">
+                
+                        <button className="inline-block text-white text-xl pl-4 pr-4 rounded-xl tm-bg-green hover:underline italic"
+                         style={{ backgroundColor: "rgb(173, 33, 36)" }}>
+                         <a href="https://www.eerdmans.com/9780802885142/the-golden-band/" target="_blank" rel="noopener noreferrer"
+                          className="inline-block text-white text-xl pl-5 pr-5 py-3 rounded-xl tm-bg-green hover:underline italic"
+                          style={{ backgroundColor: "rgb(173, 33, 36)" }}>Buy at Eerdmans's!</a>
+                      </button>
+                      <br/><br/> 
+                      <button className="inline-block text-white text-xl pl-4 pr-4 rounded-xl tm-bg-green hover:underline italic"
+                         style={{ backgroundColor: "rgb(173, 33, 36)" }}>
+                         <a href="https://www.amazon.com/Golden-Band-American-Spirituals-Hermeneutics/dp/0802885144/ref=sr_1_1?crid=3T6QCLUQLM7SH&dib=eyJ2IjoiMSJ9.j7NX4L5TI4I0eg-jbpad36K_nL8QepPxZ_7hQVGtgNcxu7knLWaCUfGF2zD6lp5QlCCCaWvI9fmq2p6lurfCIYjCV1pw1Lx_tC_K6Yp4MdfhQI-fbP9NZYZLgtUhUv1MnW3qqDjXqmdbmbK_6dQSO8ompNfjWG2oyAkmjWZQtfojYy5HMepVsFS4mk5S1arTfbHiLo9PafC9BTVEb7z7153R2G_YzgyBwrADoI6brlo.pqCuoCgf52jQq8AnavWcVZCR3m-OK4mL612I_6lY66g&dib_tag=se&keywords=the+golden+band&qid=1740491304&s=books&sprefix=the+golden+band%2Cstripbooks%2C110&sr=1-1" target="_blank" rel="noopener noreferrer"
+                          className="inline-block text-white text-xl pl-5 pr-5 py-3 rounded-xl tm-bg-green hover:underline italic"
+                          style={{ backgroundColor: "rgb(173, 33, 36)" }}>  Buy on Amazon!</a>
+                      </button>
+                      </div>
+                      </div>             
                     </div>
                             <div className="flex items-start mb-6 tm-menu-item">
                         <img src="img/71b+P8GMdQL._SY523_.jpg" alt="Beyond the Pale Book Cover" className="rounded-md w-10 h-auto"/>                 
@@ -39,7 +61,20 @@ function Portfolio({handlePageChange}) {
                             <a href="https://www.amazon.com/Beyond-Pale-Reading-Ethics-Margins-ebook/dp/B005X3KS5Q/ref=sr_1_8?crid=1W1U0HDLKM781&dib=eyJ2IjoiMSJ9.Wr0S4-sBJAuQZB_ScXG8nExtiCBkrXFOiKJEm1sAo3u2puu8VHS-neGkmvOvww-CKSqQckhbfxT9cr3HzSekhZjd-W8vlmp5iTEi43TDQ0Vj9FKndAg-DyMG3jrvkNeQb7kLVZYyKC3jrs5wYQKY2o3S3bLukVZSUoWooGYZGhjnjFsGyjqIROxo8FOWMfkV5PJi8knup9y0LFt3Y5Qi2bReM7ZrQ8OaBK3p9wQIWjYnRcvij1sqOM73moC9iE1-4nWSZxFUHi-MhenuKpF00av1Ns06kUjxsD5-M-sQH5e6PDI15TCh2bFeiFm_-D8PSRY98Vjh9YiT_my3DQYZDOfIPep7R5OtaEep-vOyIa8.l8sv09-q5pTLfY52yhSrNqFAJaY3lUZqZMBo0-M3zno&dib_tag=se&keywords=Beyond+the+Pale&qid=1740490226&s=books&sprefix=beyond+the+pale%2Cstripbooks%2C129&sr=1-8" target="_blank" rel="noopener noreferrer" className="hover:underline">
                              "Thomas Hobbes on Human Nature" </a></h3>
                             <div className="text-white text-md sm:text-lg font-light mb-1"></div>
-                            <div className="text-gray text-md sm:text-lg font-light"> Beyond the Pale <br></br>(Top 4% - Academia.edu) </div>
+                            <div className="text-gray text-md sm:text-lg font-light"> Beyond the Pale <br></br>(Top 4% - Academia.edu) 
+                            <div className="text-center ml-3 sm:ml-6">
+                <br/>
+                    
+                <button className="inline-block text-white text-xl pl-4 pr-4 rounded-xl tm-bg-green hover:underline italic"
+                         style={{ backgroundColor: "rgb(173, 33, 36)" }}>
+                         <a href="https://www.amazon.com/Beyond-Pale-Reading-Ethics-Margins-ebook/dp/B005X3KS5Q/ref=sr_1_8?crid=1W1U0HDLKM781&dib=eyJ2IjoiMSJ9.Wr0S4-sBJAuQZB_ScXG8nExtiCBkrXFOiKJEm1sAo3u2puu8VHS-neGkmvOvww-CKSqQckhbfxT9cr3HzSekhZjd-W8vlmp5iTEi43TDQ0Vj9FKndAg-DyMG3jrvkNeQb7kLVZYyKC3jrs5wYQKY2o3S3bLukVZSUoWooGYZGhjnjFsGyjqIROxo8FOWMfkV5PJi8knup9y0LFt3Y5Qi2bReM7ZrQ8OaBK3p9wQIWjYnRcvij1sqOM73moC9iE1-4nWSZxFUHi-MhenuKpF00av1Ns06kUjxsD5-M-sQH5e6PDI15TCh2bFeiFm_-D8PSRY98Vjh9YiT_my3DQYZDOfIPep7R5OtaEep-vOyIa8.l8sv09-q5pTLfY52yhSrNqFAJaY3lUZqZMBo0-M3zno&dib_tag=se&keywords=Beyond+the+Pale&qid=1740490226&s=books&sprefix=beyond+the+pale%2Cstripbooks%2C129&sr=1-8" target="_blank" rel="noopener noreferrer"
+                          className="inline-block text-white text-xl pl-5 pr-5 py-3 rounded-xl tm-bg-green hover:underline italic"
+                          style={{ backgroundColor: "rgb(173, 33, 36)" }}>  Buy on Amazon!</a>
+                      </button>
+                     
+                      <br/><br/> 
+                      </div>
+                            </div>
                         </div>                    
                     </div>
                            </div>
@@ -55,9 +90,11 @@ function Portfolio({handlePageChange}) {
                         <br/><br/>                          
                         <div className="flex items-start mb-6 tm-menu-item">
                         <div className="ml-3 sm:ml-6 flex items-center">
-                        <h3 className="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow text-left">Figures and Horizons in Christian Thought
+                        <h3 className="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow text-left">
+                             <a href="/Figures and Horizons Prospectus.pdf" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                            Figures and Horizons in Christian Thought (PROSPECTUS AVAILABLE UPON REQUEST)</a>
                             <br/><br/>
-                            <div className="text-white text-md sm:text-lg font-light">Forthcoming/<br/>Rescheduled</div></h3>
+                            <div className="text-white text-md sm:text-lg font-light">Actively Seeking Publisher/<br/>Rescheduled</div></h3>
                         </div>
                         <img src="img/17ed287a-b07f-4521-9cbc-f948287c814e.jpg" alt="Image of Blank Book/Book Cover"  className="rounded-md w-10 h-auto" style={{ marginLeft: '-5px' }}/>                    
                     </div>

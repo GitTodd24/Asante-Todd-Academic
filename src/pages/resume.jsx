@@ -18,7 +18,9 @@ function Resume({handlePageChange}){
             
             <div className="rounded-xl px-10 py-12 bg-white bg-opacity-80 tm-item-container-contact" style={{ zIndex: '2', position: 'relative', marginTop: "175px" }}>
                 <div class="bg-white bg-opacity-80 p-12 pb-14 rounded-xl mb-5">
+                        <button class="bg-white">
                     <h2 class="mb-6 tm-text-green text-4xl font-medium"><a href="/Asante Todd CV .pdf">Download <br></br>Curriculum Vitae</a></h2>
+                    </button>
                 </div>
 
                 <button onClick={() => handlePageChange('Contact')} className="inline-block tm-bg-green transition text-white text-xl pt-3 pb-4 px-8 rounded-md cursor-pointer">
@@ -101,7 +103,7 @@ function Resume({handlePageChange}){
                      <ul className="flex items-center">
  
              <li className="flex items-center">
-             <img src="public/img/logos/SUN_logo.png" alt="Stellenbosch University Logo" style={{ marginRight: "30px" }} class="flex custom-logo display-inline" />
+             <img src="img/logos/SUN_logo.png" alt="Stellenbosch University Logo" style={{ marginRight: "30px" }} class="flex custom-logo display-inline" />
      
                      <img src="img/logos/institute_for_justice_and_reconciliation_logo.jpeg" alt="Institute for Justice and Reconciliation Logo" style={{ marginRight: "30px" }} class="flex custom-logo rounded-lg" />
  

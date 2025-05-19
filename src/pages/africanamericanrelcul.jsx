@@ -77,6 +77,7 @@ function AfricanAmericanRelCul({ handlePageChange }) {
                                 Cornel West, the Cultural Politics of Difference, and African American Prophetic Christianity <br></br><br></br>
                                 Black Feminist Thought <br></br><br></br>
                                 T.D. Jakes, the Black MegaChurch, and Prosperity Gospel <br></br><br></br>
+                                Decoded?: Jay Z and Hip Hop Aesthetics as Moral Education <br></br><br></br>
                                 The Golden Band: African American Spirituals as Public Theology 
                             </p>
 

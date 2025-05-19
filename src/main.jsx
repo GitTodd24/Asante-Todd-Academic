@@ -6,18 +6,11 @@ import ReactDOM from 'react-dom'
 import { Link } from 'react-router-dom'
 import { BrowserRouter } from "react-router-dom"
 import App from './App';
-import Lectures from './pages/lectures'
-import Ethics from './pages/ethics'
-import Hermeneutics from './pages/hermeneutics'
-import AfricanAmericanRelCul from './pages/africanamericanrelcul'
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-
-
 
 root.render(
   <BrowserRouter>
     <App />
-    <Link to="/lectures">Lectures</Link>
     </BrowserRouter>
 );

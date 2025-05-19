@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="footer fixed bottom-0 left-0" style={{ zIndex: '4', width: '90%', height: '45px', backgroundColor: 'rgba(210, 180, 140, 0.5)', textAlign: 'center', lineHeight: '55px', margin: '0 auto', left: '7.5%', right: '7.5%' }}>
+    <footer className="footer fixed bottom-0 left-0 rounded-xl" style={{ zIndex: '4', width: '90%', height: '45px', backgroundColor: 'rgba(210, 180, 140, 0.5)', textAlign: 'center', lineHeight: '55px', margin: '0 auto', left: '4.5%', right: '7.5%' }}>
       <div className="text-white text-xs flex justify-between px-4">
         <span>Copyright 2025 GoldenCode. All rights reserved.</span>
        
