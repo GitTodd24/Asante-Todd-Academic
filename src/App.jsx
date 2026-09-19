@@ -26,6 +26,7 @@ import DonorAdvisedFunds from './pages/donorAdvisedFunds';
 import Crypto from './pages/crypto';
 import DirectTransfer from './pages/directTransfer';
 import WordsofAffirmation from './pages/wordsofAffirmation';
+import GivebyMail from './pages/givebyMail';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -91,6 +92,9 @@ function App() {
         }
         if (givePage === 'WordsofAffirmation') {
           return <WordsofAffirmation handlePageChange={handlePageChange} />;
+        }
+        if (givePage === 'GivebyMail') {
+          return <GivebyMail handlePageChange={handlePageChange} />;
         }
         if (givePage === 'CreditCard') {
           return <CreditCard handlePageChange={handlePageChange} />;

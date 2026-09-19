@@ -1,6 +1,9 @@
 const mongoose = require("mongoose");
 require("dotenv").config();
 
+
+// This file is for the backend only — it handles connecting to MongoDB using Node.js, Mongoose, and server-side environment variables
+
 // MongoDB Connection
 const connectDB = async () => {
   try {

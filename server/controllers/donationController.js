@@ -1,4 +1,4 @@
-const stripe = require("../../config/stripeConfig").stripe; // Import Stripe configuration
+const stripe = require("../../src/config/stripeConfig").stripe; // Import Stripe configuration
 const { Visitor, Donation } = require("../../models");
 
 // ✅ Ensure Stripe secret key is loaded

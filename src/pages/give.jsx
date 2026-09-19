@@ -285,6 +285,14 @@ function Donation({ handlePageChange }) {
                                                         Give Words of Affirmation                      </button>
                                                 </li>
                                                 <br />
+                                                <li>
+                                                <button 
+                                                        onClick={() => handlePageChange("Give/GivebyMail")}
+                                                        style={{ backgroundColor: " rgb(227, 193, 120)" }}
+                                                        className="text-white text-2xl pl-10 pr-12 py-6 rounded-lg transition tm-bg-gold">
+                                                        Give by Mail
+                                                    </button>
+                                                </li>
                                                 {/*<li>
                                                     <button onClick={() => handlePageChange("Give/PayPal")}
                                                         style={{ backgroundColor: " rgb(227, 193, 120)", marginRight: "15px" }}
