@@ -136,7 +136,7 @@ function Contact(){
                              
 
                                 <br/><br/>
-                    <form onSubmit={handleSubmit} className="mb-6 text-lg leading-8" action="" method="POST" className="text-lg">
+                    <form onSubmit={handleSubmit} action="" method="POST" className="mb-6 text-lg leading-8">
                     <h2 className="bg-black border-b bg-opacity-0 text-white text-left py-4 mb-4 tm-border-gold" ><b>About Your Organization</b></h2>
                     
                     <label className="text-white" style={{ marginRight: '225px'  }} htmlFor="nameoforg">Name of Organization*</label>
