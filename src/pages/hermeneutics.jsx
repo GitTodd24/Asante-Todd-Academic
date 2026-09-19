@@ -1,5 +1,5 @@
 import { href, useNavigate } from "react-router-dom";
-import Footer from "../components/Footer";
+import Footer from "../components/footer";
 
 function Hermeneutics({ handlePageChange }) {
     const navigate = useNavigate(); // Hook for navigation
