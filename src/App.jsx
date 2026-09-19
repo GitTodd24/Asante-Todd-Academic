@@ -18,7 +18,7 @@ import Give from './pages/give';
 import Venmo from './pages/venmo';
 import PayPal from './pages/paypal';
 import Zelle from './pages/zelle';
-import ApplePay from './pages/applePay';
+import ApplePay from './pages/applepay';
 import MobileText from './pages/mobiletext';
 import GooglePay from './pages/googlepay';
 import Stocks from './pages/stocks';
