@@ -27,7 +27,13 @@ function About({handlePageChange}){
         <div class="bg-white bg-opacity-80 p-12 pb-14 rounded-xl mb-5">
         
           <br/><br/> 
-                                    <img src="img/Todd-Asante_1-scaled-e1746718126869.jpg" alt="Asante Todd in Shelton Chapel, Austin, TX" className="rounded-md text-center w-100 h-auto" />
+                                    <img src="img/Todd-Asante_1-scaled-e1746718126869" alt="Asante Todd in Shelton Chapel, Austin, TX" className="rounded-md text-center w-100 h-auto"  style={{
+            top: '3',
+            left: '0',
+            width: '100%',
+            height: 'auto',
+            zIndex: '1'
+          }} />
                                     <br/><br/>
                                     <button 
                                     className="text-center text-white pl-8 pr-8 text-2xl rounded-lg tm-bg-green" style={{ backgroundColor: "rgb(154, 12, 15)", marginLeft: "140px" }}>
