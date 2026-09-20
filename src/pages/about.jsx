@@ -23,7 +23,7 @@ function About({handlePageChange}){
 
         {/*<img src="img/AtoddHotel.jpg" alt="Image Description" className="absolute flex-1 rounded-xl p-12 pb-14 m-50 bg-black bg-opacity-50 tm-item-container" style={{ top: '200px', right: '1000', width: '500px', marginLeft: '700px', height: 'auto', zIndex: '1', borderRadius: '15px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }} /> */}
 
-        <div className="tm-item-container sm:ml-auto sm:mr-12 mx-auto sm:px-0 px-4" style={{ zIndex: '2', position: 'relative', marginRight: '320px' }}>
+        <div className="tm-item-container sm:ml-auto sm:mr-12 mx-auto sm:px-0 px-4" style={{ zIndex: '2', position: 'relative', marginRight: '550px' }}>
         <div class="bg-white bg-opacity-80 p-12 pb-14 rounded-xl mb-5">
         
           <br/><br/> 
@@ -58,7 +58,7 @@ function About({handlePageChange}){
           </div>
 
 
-                <div className="tm-item-container sm:ml-auto sm:mr-12 mx-auto sm:px-0 px-4" style={{ zIndex: '2', position: 'relative', marginRight: '320px' }}>
+                <div className="tm-item-container sm:ml-auto sm:mr-12 mx-auto sm:px-0 px-4" style={{ marginLeft: "600px", marginTop: "-1075px", zIndex: '3', position: 'relative'}}>
                 <div class="bg-white bg-opacity-80 p-12 pb-14 rounded-xl mb-5">
                     <h2 class="mb-6 tm-text-green text-4xl font-medium">Dr. Todd</h2>
                     <br></br>
