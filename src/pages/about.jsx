@@ -27,6 +27,8 @@ function About({handlePageChange}){
         <div class="bg-white bg-opacity-80 p-12 pb-14 rounded-xl mb-5">
         
           <br/><br/> 
+                                    <img src="img/c:\Users\atodd\Downloads\Todd-Asante_1-scaled-e1746718126869.jpg" alt="Asante Todd in Shelton Chapel, Austin, TX" className="rounded-md text-center w-100 h-auto" style={{ marginLeft: '100px', marginTop: '30px' }}/>
+                                    <br/><br/>
                                     <button 
                                     className="text-center text-white pl-8 pr-8 text-2xl rounded-lg tm-bg-green" style={{ backgroundColor: "rgb(154, 12, 15)", marginLeft: "140px" }}>
                                        <a href="https://www.amazon.com/Golden-Band-American-Spirituals-Hermeneutics/dp/0802885144/ref=sr_1_1?crid=3T6QCLUQLM7SH&dib=eyJ2IjoiMSJ9.j7NX4L5TI4I0eg-jbpad36K_nL8QepPxZ_7hQVGtgNcxu7knLWaCUfGF2zD6lp5QlCCCaWvI9fmq2p6lurfCIYjCV1pw1Lx_tC_K6Yp4MdfhQI-fbP9NZYZLgtUhUv1MnW3qqDjXqmdbmbK_6dQSO8ompNfjWG2oyAkmjWZQtfojYy5HMepVsFS4mk5S1arTfbHiLo9PafC9BTVEb7z7153R2G_YzgyBwrADoI6brlo.pqCuoCgf52jQq8AnavWcVZCR3m-OK4mL612I_6lY66g&dib_tag=se&keywords=the+golden+band&qid=1740491304&s=books&sprefix=the+golden+band%2Cstripbooks%2C110&sr=1-1" target="_blank" rel="noopener noreferrer"className="hover:underline" >New!</a>
