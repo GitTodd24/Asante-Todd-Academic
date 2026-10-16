@@ -96,6 +96,6 @@ Contact
     responsedeadline: '2025-07-15', 
 })
 .then(result => console.log('Created new document', result))
-.catch(err => consoleError(err));
+.catch(err => console.error(err));
 
 module.exports = Contact;

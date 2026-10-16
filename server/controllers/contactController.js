@@ -1,4 +1,4 @@
-const { Visitor, Contact } = require('../../models');
+const { Visitor, Contact } = require('../../models/index.cjs');
 
 // GET all contacts
 const getContacts = async (req, res) => {

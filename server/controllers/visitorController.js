@@ -1,4 +1,4 @@
-const { Visitor } = require('../../models');
+const { Visitor } = require('../../models/index.cjs');
 
 module.exports = {
   async getVisitors(req, res) {

@@ -1,4 +1,4 @@
-const { Affirmation } = require('../../models');
+const { Affirmation } = require('../../models/index.cjs');
 
 // GET all affirmations
 const getAffirmations = async (req, res) => {

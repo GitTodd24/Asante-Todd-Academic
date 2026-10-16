@@ -1,4 +1,4 @@
-require("dotenv").config(); // Ensure this is at the very top
+require("dotenv").config({ path: "../.env" }); // Ensure this is at the very top
 
 const express = require("express");
 const mongoose = require("mongoose");
@@ -10,7 +10,7 @@ if (!process.env.STRIPE_SECRET_KEY) {
   process.exit(1);
 }
 
-const connectDB = require("../db/database"); // Import DB connection function
+const connectDB = require("../db/database.cjs"); // Import DB connection function
 connectDB(); // Connect to MongoDB
 
 const app = express();
@@ -73,7 +73,6 @@ app.post("/submit-form", async (req, res) => {
 });
 
 // ✅ Stripe Webhook Route (Handled inside stripeRoutes)
-const webhookSecret = process.env.WEBHOOK_SECRET;
 app.use("/webhook", stripeRoutes); // ✅ Ensure webhook is managed inside Stripe routes
 
 // ✅ Graceful Shutdown Handling
