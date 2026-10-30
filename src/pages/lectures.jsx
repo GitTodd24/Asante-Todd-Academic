@@ -24,10 +24,10 @@ function Lectures({ handlePageChange }) {
                     <div className="lg:items-stretch">
                    
                         <div className="rounded-xl px-10 py-12 bg-white bg-opacity-80 tm-item-container-contact max-w-fit" style={{ zIndex: '2', position: 'relative', marginTop: "-50px" }}>
-                            <h2 className="text-3xl mb-6 tm-text-green">Inspiring, Informative, Transformational</h2>
+                            <h2 className="text-3xl mb-6 tm-text-green">Inspiring, Informative, Transformational.</h2>
                             <p className="mb-6 text-lg leading-8">
-                                My research spans the gamut from religion and politics to philosophy and history. I have published in a variety of venues, including academic journals, edited volumes, and manuscripts.<br /><br />
-                                My teaching interests include courses in ethics, political theory, and the philosophy of religion. I served as professor of ethics for ten years at Austin Seminary in Austin, TX, and I have lectured at institutions including the University of Texas at Austin, Wesley Seminary in Washington D.C., and the annual Samuel DeWitt Proctor Conference. <br/><br/>
+                                Dr. Todd's research spans the gamut from religion and politics to philosophy to history. He is published in a variety of venues, including academic journals, edited volumes, and manuscripts.<br /><br />
+                                In addition to the research highlighted on this site, other interests include ethics and moral issues, political theory, and the philosophy of religion. Todd has presented his research at institutions such as the University of Texas at Austin and Wesley Seminary in Washington D.C., and at national and international conferences such as the annual Samuel DeWitt Proctor Conference, the American Academy of Religion, and the Grandeur of Reason. <br/><br/>
                                 <b>Click a button below </b>to browse lectures by area of study OR click "Contact" in the top navigation bar to inquire about <span onClick={() => handlePageChange('Contact')} className="underline text-blue-500 cursor-pointer">lectures, adjunct, and online teaching</span>.
                                           </p>
                             <div className="text-center">

@@ -113,19 +113,19 @@ function Contact(){
                     
                     <h2 className="text-3xl mb-6 tm-text-green">Contact Dr. Todd.<br/><br/>Discuss.<br/>Consult.<br/>Invite.<br/></h2>
                     <p className="mb-6 text-lg leading-8">
-                    Thanks for stopping by the site! I hope that you enjoyed your visit. You may contact Dr. Todd for further information or needed services by filling out the form to the right or by using the contact information below. 
+                    You may contact Dr. Todd for further information or needed services by filling out the form to the right or by using the contact information below. 
                     </p>
                     <p className="mb-10 text-lg">
                         <span><a href="mailto:drasantetodd@gmail.com" className="ml-4 hover:text-yellow-600 transition">Email: professor@asantetodd.com</a></span>
                         <br/><br/>
-                        <span className="text-yellow-600 transition">Place of Employment: <br/>Actively Seeking Adjunct and Online Opportunities</span>                        
+                                             
                     </p>
                     <div className="text-center">
                       
                     </div>    
-                    <img src="img/AsanteStreet.jpg" alt="Image Description" className="absolute scroll" style={{ top: '20%', left: '76%', transform: 'translate(-50%, -50%)', zIndex: '10', width: '200px', height: 'auto', borderRadius: '15px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }} />                
-                </div>
-                
+        
+                    
+                </div>  
                 <div className="flex-1 rounded-xl p-12 pb-14 m-5 bg-black text-center bg-opacity-50 tm-item-container">
                 <br/><br/>
                       <button 

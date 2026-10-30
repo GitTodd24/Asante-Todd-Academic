@@ -18,6 +18,7 @@ function About({handlePageChange}){
           }}
         />
         <h1 class="text-white" style={{ zIndex: '3', position: 'relative' }}> Welcome!</h1>
+        <h2 class="text-white" style={{ zIndex: '3', position: 'absolute', marginLeft: '35px' }}> *Test Site/Under Construction </h2>
         <div id="about" class="parallax-window" data-parallax="scroll" data-image-src="img/ChoirHero2.jpg">
         <div class="container mx-auto tm-container py-24 sm:py-48">
 
@@ -30,25 +31,25 @@ function About({handlePageChange}){
                                     <img src="img/Todd-Asante_1-scaled-e1746718126869.jpg" alt="Asante Todd in Shelton Chapel"/> 
                                     <br/><br/>
                                     <button 
-                                    className="text-center text-white pl-8 pr-8 text-2xl rounded-lg tm-bg-green" style={{ backgroundColor: "rgb(154, 12, 15)", marginLeft: "120px" }}>
+                                    className="text-center text-white pl-8 pr-8 text-2xl rounded-lg tm-bg-green" style={{ backgroundColor: "rgb(154, 12, 15)", marginLeft: "125px" }}>
                                        <a href="https://www.amazon.com/Golden-Band-American-Spirituals-Hermeneutics/dp/0802885144/ref=sr_1_1?crid=3T6QCLUQLM7SH&dib=eyJ2IjoiMSJ9.j7NX4L5TI4I0eg-jbpad36K_nL8QepPxZ_7hQVGtgNcxu7knLWaCUfGF2zD6lp5QlCCCaWvI9fmq2p6lurfCIYjCV1pw1Lx_tC_K6Yp4MdfhQI-fbP9NZYZLgtUhUv1MnW3qqDjXqmdbmbK_6dQSO8ompNfjWG2oyAkmjWZQtfojYy5HMepVsFS4mk5S1arTfbHiLo9PafC9BTVEb7z7153R2G_YzgyBwrADoI6brlo.pqCuoCgf52jQq8AnavWcVZCR3m-OK4mL612I_6lY66g&dib_tag=se&keywords=the+golden+band&qid=1740491304&s=books&sprefix=the+golden+band%2Cstripbooks%2C110&sr=1-1" target="_blank" rel="noopener noreferrer"className="hover:underline" >New!</a>
                                     </button>
         
                         <a href="https://www.amazon.com/Golden-Band-American-Spirituals-Hermeneutics/dp/0802885144/ref=sr_1_1?crid=3T6QCLUQLM7SH&dib=eyJ2IjoiMSJ9.j7NX4L5TI4I0eg-jbpad36K_nL8QepPxZ_7hQVGtgNcxu7knLWaCUfGF2zD6lp5QlCCCaWvI9fmq2p6lurfCIYjCV1pw1Lx_tC_K6Yp4MdfhQI-fbP9NZYZLgtUhUv1MnW3qqDjXqmdbmbK_6dQSO8ompNfjWG2oyAkmjWZQtfojYy5HMepVsFS4mk5S1arTfbHiLo9PafC9BTVEb7z7153R2G_YzgyBwrADoI6brlo.pqCuoCgf52jQq8AnavWcVZCR3m-OK4mL612I_6lY66g&dib_tag=se&keywords=the+golden+band&qid=1740491304&s=books&sprefix=the+golden+band%2Cstripbooks%2C110&sr=1-1" target="_blank" rel="noopener noreferrer" className="hover:underline italic">
-                        <img src="img/81KUH4zYSsL._SY522_.jpg" alt="The Golden Band book cover" className="rounded-md text-center w-100 h-auto" style={{ marginLeft: '100px', marginTop: '30px' }}/></a> 
+                        <img src="img/81KUH4zYSsL._SY522_.jpg" alt="The Golden Band book cover" className="rounded-md text-center w-100 h-auto" style={{ marginLeft: '90px', marginTop: '30px' }}/></a> 
                       
                       <br/>
-                       <div className="text-center ml-3 sm:ml-6">
+                       <div className="text-center ml-9 sm:ml-6">
                         <button className="inline-block text-white text-xl pl-4 pr-4 rounded-xl tm-bg-green hover:underline italic"
-                         style={{ backgroundColor: "rgb(173, 33, 36)" }}>
+                         style={{ backgroundColor: "rgb(173, 33, 36)", marginRight: "35px" }}>
                          <a href="https://www.eerdmans.com/9780802885142/the-golden-band/" target="_blank" rel="noopener noreferrer"
                         className="inline-block text-white text-xl pl-5 pr-5 py-3 rounded-xl tm-bg-green hover:underline italic"
                          style={{ backgroundColor: "rgb(173, 33, 36)" }}
                         >Buy at Eerdmans's!</a>
                       </button>
                       <br/><br/> 
-                      <button className="inline-block text-white text-xl pl-4 pr-4 rounded-xl tm-bg-green hover:underline italic"
-                         style={{ backgroundColor: "rgb(173, 33, 36)" }}>
+                      <button className="text-left text-white text-xl ml-0 pl-4 pr-4 rounded-xl tm-bg-green hover:underline italic"
+                         style={{ backgroundColor: "rgb(173, 33, 36)", marginRight: "35px" }}>
                          <a href="https://www.amazon.com/Golden-Band-American-Spirituals-Hermeneutics/dp/0802885144/ref=sr_1_1?crid=3T6QCLUQLM7SH&dib=eyJ2IjoiMSJ9.j7NX4L5TI4I0eg-jbpad36K_nL8QepPxZ_7hQVGtgNcxu7knLWaCUfGF2zD6lp5QlCCCaWvI9fmq2p6lurfCIYjCV1pw1Lx_tC_K6Yp4MdfhQI-fbP9NZYZLgtUhUv1MnW3qqDjXqmdbmbK_6dQSO8ompNfjWG2oyAkmjWZQtfojYy5HMepVsFS4mk5S1arTfbHiLo9PafC9BTVEb7z7153R2G_YzgyBwrADoI6brlo.pqCuoCgf52jQq8AnavWcVZCR3m-OK4mL612I_6lY66g&dib_tag=se&keywords=the+golden+band&qid=1740491304&s=books&sprefix=the+golden+band%2Cstripbooks%2C110&sr=1-1" target="_blank" rel="noopener noreferrer"
                           className="inline-block text-white text-center text-xl pl-5 pr-5 py-3 rounded-xl tm-bg-green hover:underline italic"
                           style={{ backgroundColor: "rgb(173, 33, 36)" }}>  Buy on Amazon!</a>
@@ -68,8 +69,7 @@ function About({handlePageChange}){
                     </p>
                     <br/>
                     <h2 class="mb-6 tm-text-green text-4xl font-medium">Religion. Culture. Politics.</h2>
-                    <p class="mb-6 text-base leading-8">
-                    Dr. Asante Todd is an independent American scholar of religion and politics. He is a published author currently writing, speaking, and teaching in the academy, the church, and society to teach, touch, and transform. <br></br> <br></br> 
+                    <p class="mb-6 text-base leading-8"> 
                     Click navigation tabs above to explore the site!
                   </p>
                    </div>

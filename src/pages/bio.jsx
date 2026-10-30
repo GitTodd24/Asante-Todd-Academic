@@ -24,10 +24,11 @@ function Bio() {
                         <div className="rounded-xl px-10 py-12 bg-white bg-opacity-80 tm-item-container-contact max-w-fit" style={{ zIndex: '2', position: 'relative' }}>
                             <h2 className="text-3xl mb-6 tm-text-green">West Texas Roots</h2>
                             <p className="mb-6 text-lg leading-8">
-                                Asante Todd is a native of Midland, Texas. He is a graduate of the University of Texas at Austin in Austin, TX, where he earned a Bachelor of Arts degree in Religious Studies and English. <br /><br /> He also holds a Master of Divinity degree from Austin Presbyterian Theological Seminary as well as an earned doctorate in Religious Studies from Vanderbilt University. <br /><br />
-                                Todd has served as professor of Ethics for ten years at Austin Presbyterian Theological Seminary in Austin, Texas, and in leadership in the Baptist denomination. He currently works as an independent scholar.
+                                Dr. Todd is a Texas native. He studied at the University of Texas at Austin in Austin, TX, earning a Bachelor of Arts degree in Religious Studies and English. He also studied at Austin Presbyterian Theological Seminary, earning his Master of Divinity degree, and at Vanderbilt University in Nashville, TN, for his doctorate in Religious Studies. <br /><br />
+                                Todd served as professor of Ethics for ten years at Austin Presbyterian Theological Seminary and is a published author.
                             </p>
                            </div>
+                           <br /><br />
                         <div className="flex-1 rounded-xl p-12 pb-14 m-5 bg-black bg-opacity-50 tm-item-container" style={{ marginLeft: "575px", marginTop: "-750px", zIndex: '2', position: 'relative' }}>
                             <form action="" method="POST" className="text-lg text-white">
                                 <u><h2 className="text-3xl mb-6 tm-text-white">Selected Service</h2></u>
