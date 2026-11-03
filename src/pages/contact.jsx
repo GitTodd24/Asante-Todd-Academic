@@ -100,7 +100,14 @@ function Contact(){
     };
 
     return <>
-        <h1 className="text-white">Contact</h1>
+
+    <img
+    src="/img/motherboardearthCrop2.jpeg"
+    alt="Motherboard Earth"
+    className="absolute right-0 top-1/2
+    transform -translate-y-1/2 w-[200px] shadow-lg rounded-lg"
+/>
+        <h1 style={{ zIndex: '3', position: 'relative', color: 'white' }}>Contact</h1>
         <div id="contact" className="parallax-window relative" data-parallax="scroll" data-image-src="img/St Lukes Inside Prayer.jpg">
 
         <div className="container mx-auto tm-container relative">
