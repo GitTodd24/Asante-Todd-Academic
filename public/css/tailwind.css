@@ -414,9 +414,10 @@ img {
 }
 
 .custom-logo {
-  width: 100px; /* Explicit width */
-  height: auto; /* Explicit height */
-  
+  width: 15vw; /* Logo scales fluidly, taking up 15% of the viewport width */
+  max-width: 120px; /* Caps the logo so it doesn't get massive on monitors */
+  min-width: 60px;  /* Keeps it readable on tiny screens */
+  height: auto; 
 }
 
 textarea {
